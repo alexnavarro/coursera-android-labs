@@ -1,0 +1,19 @@
+<resources>
+
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#3F52B6</item>
+        <item name="colorPrimaryDark">#3F52B6</item>
+        <item name="colorAccent">#FF4183</item>
+    </style>
+
+    <style name="ToolbarStyle" parent="Widget.AppCompat.Toolbar">
+        <item name="android:background">#3F52B6</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="theme">@style/ToolbarTheme</item>
+    </style>
+
+    <style name="ToolbarTheme" parent="ThemeOverlay.AppCompat.ActionBar">
+
+    </style>
+
+</resources>
